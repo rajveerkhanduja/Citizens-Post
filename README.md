@@ -39,7 +39,6 @@ This project introduces an AI-powered, cloud-based platform designed to ensure v
 # Tech Stack Used
 
 <div align="center">
-
   <span style="margin: 10px; display: inline-block; text-align: center;">
     <img src="https://www.angleritech.com/wp-content/uploads/2021/08/react-native-mobile-app-development.png" alt="React Native" width="50" />
     <br />
@@ -69,7 +68,6 @@ This project introduces an AI-powered, cloud-based platform designed to ensure v
     <br />
     <strong>Express.js</strong>
   </span>
-
 </div>
 
 
