@@ -36,15 +36,14 @@ This project introduces an AI-powered, cloud-based platform designed to ensure v
 
 ---
 
-## **Tech Stack**
+# **Tech Stack Used**
 
-| **Frontend**       | **Backend**        | **Cloud & Storage**     | **Other Tools**         |
-|--------------------|--------------------|-------------------------|-------------------------|
-| <span class="tag">React Native</span>  | <span class="tag">Node.js</span> | <span class="tag">Google Cloud</span> | <span class="tag">Chart.js</span>  |
-| <span class="tag">Expo</span>           | <span class="tag">Express.js</span> | <span class="tag">Firebase</span>     | <span class="tag">AI Chatbot</span> |
-| <span class="tag">CSS</span>            | <span class="tag">MongoDB</span>   | <span class="tag">Storage Bucket</span>| <span class="tag">AI Analytics</span>|
+![React Native](https://www.angleritech.com/wp-content/uploads/2021/08/react-native-mobile-app-development.png) React Native  
+![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) Node.js  
+![Google Cloud](https://img.icons8.com/color/48/000000/google-cloud.png) Google Cloud  
+![Firebase](https://img.icons8.com/color/48/000000/firebase.png) Firebase  
+![Express.js](https://img.icons8.com/color/48/000000/express-js.png) Express.js
 
----
 
 ## **Unique Value Propositions**
 
