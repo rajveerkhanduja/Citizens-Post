@@ -98,11 +98,6 @@ This project introduces an AI-powered, cloud-based platform designed to ensure v
 
 ---
 
-## **Contributions**
-
-We welcome contributions! Please fork this repository and submit pull requests. Let's collaborate to make public service delivery more efficient and transparent.
-
----
 
 ## **License**
 
