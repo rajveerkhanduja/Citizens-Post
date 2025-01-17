@@ -38,37 +38,9 @@ This project introduces an AI-powered, cloud-based platform designed to ensure v
 
 # Tech Stack Used
 
-<div align="center">
-  <span style="margin: 10px; display: inline-block; text-align: center;">
-    <img src="https://www.angleritech.com/wp-content/uploads/2021/08/react-native-mobile-app-development.png" alt="React Native" width="50" />
-    <br />
-    <strong>React Native</strong>
-  </span>
-  
-  <span style="margin: 10px; display: inline-block; text-align: center;">
-    <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" width="50" />
-    <br />
-    <strong>Node.js</strong>
-  </span>
-  
-  <span style="margin: 10px; display: inline-block; text-align: center;">
-    <img src="https://img.icons8.com/color/48/000000/google-cloud.png" alt="Google Cloud" width="50" />
-    <br />
-    <strong>Google Cloud</strong>
-  </span>
-  
-  <span style="margin: 10px; display: inline-block; text-align: center;">
-    <img src="https://img.icons8.com/color/48/000000/firebase.png" alt="Firebase" width="50" />
-    <br />
-    <strong>Firebase</strong>
-  </span>
-  
-  <span style="margin: 10px; display: inline-block; text-align: center;">
-    <img src="https://img.icons8.com/color/48/000000/express-js.png" alt="Express.js" width="50" />
-    <br />
-    <strong>Express.js</strong>
-  </span>
-</div>
+| **React Native** ![React Native](https://img.icons8.com/color/48/000000/react-native.png) | **Node.js** ![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) | **Google Cloud** ![Google Cloud](https://img.icons8.com/color/48/000000/google-cloud.png) | **Firebase** ![Firebase](https://img.icons8.com/color/48/000000/firebase.png) | **Express.js** ![Express.js](https://img.icons8.com/color/48/000000/express-js.png) |
+|:----------------------------------------------------------:|:---------------------------------------------------------:|:---------------------------------------------------------:|:--------------------------------------------------------:|:----------------------------------------------------------:|
+
 
 
 ## **Unique Value Propositions**
