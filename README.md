@@ -38,11 +38,24 @@ This project introduces an AI-powered, cloud-based platform designed to ensure v
 
 # **Tech Stack Used**
 
-![React Native](https://www.angleritech.com/wp-content/uploads/2021/08/react-native-mobile-app-development.png) React Native  
-![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) Node.js  
-![Google Cloud](https://img.icons8.com/color/48/000000/google-cloud.png) Google Cloud  
-![Firebase](https://img.icons8.com/color/48/000000/firebase.png) Firebase  
-![Express.js](https://img.icons8.com/color/48/000000/express-js.png) Express.js
+<div align="center">
+
+![React Native](https://www.angleritech.com/wp-content/uploads/2021/08/react-native-mobile-app-development.png)  
+**React Native**
+
+![Node.js](https://img.icons8.com/color/48/000000/nodejs.png)  
+**Node.js**
+
+![Google Cloud](https://img.icons8.com/color/48/000000/google-cloud.png)  
+**Google Cloud**
+
+![Firebase](https://img.icons8.com/color/48/000000/firebase.png)  
+**Firebase**
+
+![Express.js](https://img.icons8.com/color/48/000000/express-js.png)  
+**Express.js**
+
+</div>
 
 
 ## **Unique Value Propositions**
