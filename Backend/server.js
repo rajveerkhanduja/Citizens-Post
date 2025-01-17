@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Hardcoded API key
-const apiKey = 'AIzaSyD7rysGof45XoGHYw6jxVmhjTOFJanuGnU';  // Replace with your actual API key
+const apiKey = API_KEY;  // Replace with your actual API key
 const genAI = new GoogleGenerativeAI(apiKey);  // Create instance of GoogleGenerativeAI
 
 const model = genAI.getGenerativeModel({

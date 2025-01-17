@@ -1,7 +1,10 @@
 import axios from "axios";
+import env from "dotenv";
+
+env.config();
 
 const BASE_URL = "https://maps.googleapis.com/maps/api/place";
-const API_KEY = "AIzaSyBcPQH2M7oktuydlT2ZwH541HcuEyA9EGc";
+const API_KEY = GOOGLE_MAPS_KEY;
 const ROUTE_URL = "https://maps.googleapis.com/maps/api/directions";
 
 const nearByPostalServices = (lat, lng) =>

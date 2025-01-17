@@ -3,16 +3,19 @@ import { SafeAreaView, View, Image, Text, StyleSheet, Alert, TouchableOpacity, K
 import { Picker } from '@react-native-picker/picker';
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
+import env from "dotenv";
+
+env.config()
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBlmBxRs-lWm573NVNO3BgGPPGYlDe7-lo",
-  authDomain: "sih-citizen-charter.firebaseapp.com",
-  projectId: "sih-citizen-charter",
-  storageBucket: "sih-citizen-charter.firebasestorage.app",
-  messagingSenderId: "930469006274",
-  appId: "1:930469006274:web:de6fc2c239f3887230e45b",
-  measurementId: "G-V7EM9Y68MY"
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID,
+  measurementId: process.env.FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
@@ -77,23 +80,7 @@ export default function Signup({ navigation }) {
             <Text style={styles.subHeading}>Please enter your details</Text>
           </View>
 
-          {/* Input Fields */}
-          <View style={styles.inputContainer}>
-            <TextInput
-              style={styles.input}
-              placeholder="Phone Number"
-              keyboardType="phone-pad"
-              value={phoneNumber}
-              onChangeText={setPhoneNumber}
-            />
-            <TextInput
-              style={styles.input}
-              placeholder="Passcode"
-              secureTextEntry
-              value={passcode}
-              onChangeText={setPasscode}
-            />
-          </View>
+          
 
           <View style={styles.options}>
             <Pressable 

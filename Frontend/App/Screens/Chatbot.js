@@ -1,6 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TextInput, TouchableOpacity, Alert, KeyboardAvoidingView, Platform, Keyboard } from 'react-native';
 import { GoogleGenerativeAI } from '@google/generative-ai';
+import env from "dotenv";
+
+env.config();
 
 const GeminiChatbot = () => {
   const [messages, setMessages] = useState([
@@ -10,8 +13,8 @@ const GeminiChatbot = () => {
   const [isLoading, setIsLoading] = useState(false);
   const scrollViewRef = useRef();
 
-  // Hardcoded API Key (Note: In a real app, use secure storage)
-  const API_KEY = 'AIzaSyD7rysGof45XoGHYw6jxVmhjTOFJanuGnU';
+  
+  const API_KEY = process.env.CHATBOT_API_KEY;
 
   // Function to create a smart prompt
   const createSmartPrompt = (query) => `

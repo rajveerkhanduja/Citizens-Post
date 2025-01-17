@@ -1,6 +1,10 @@
 import axios from 'axios';
 import fs from 'fs/promises';
 import path from 'path';
+import env from "dotenv";
+
+env.config()
+
 
 const encodedParams = new URLSearchParams();
 encodedParams.set('consignment_number', 'CG180864439IN');
@@ -10,7 +14,7 @@ const options = {
   method: 'POST',
   url: 'https://speedpost-tracking-api-for-india-post.p.rapidapi.com/track/consignment',
   headers: {
-    'x-rapidapi-key': '72f8607dd9mshd05b95303be9778p1d223cjsn07a968dca1c4',
+    'x-rapidapi-key': process.env.RAPIDAPI_KEY,
     'x-rapidapi-host': 'speedpost-tracking-api-for-india-post.p.rapidapi.com',
     'Content-Type': 'application/x-www-form-urlencoded'
   },
