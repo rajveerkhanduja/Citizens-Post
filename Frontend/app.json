@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "citizens-charter",
+    "slug": "citizens-charter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "googleMapsApiKey": "AIzaSyBcPQH2M7oktuydlT2ZwH541HcuEyA9EGc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "googleMapsApiKey": "AIzaSyBcPQH2M7oktuydlT2ZwH541HcuEyA9EGc"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

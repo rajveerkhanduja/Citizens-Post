@@ -1,0 +1,160 @@
+{
+    "complaintsAnalysis": {
+      "deliveryIssues": [
+        {
+          "complaintId": 1,
+          "location": "Surat, Gujarat, India",
+          "resolution": "Investigate the status of the parcel with the Surat delivery office. Contact the customer and provide an update on the delivery. If the parcel is lost, initiate a claim process."
+        },
+        {
+          "complaintId": 2,
+          "location": "Delhi, Delhi, India",
+          "resolution": "Track the parcel within the Delhi sorting facility. Contact the customer with an estimated delivery time. Investigate the reason for the delay and take corrective actions."
+        },
+        {
+          "complaintId": 5,
+          "location": "Raipur, Chhattisgarh, India",
+          "resolution": "Verify the delivery agent's claim. If the customer was home, schedule a re-delivery. If the claim is accurate, provide appropriate communication to the customer."
+        },
+        {
+          "complaintId": 11,
+          "location": "Pune, Maharashtra, India",
+          "resolution": "Track the parcel's location. Contact the customer and provide an update. Investigate the reason for the delay and implement corrective measures."
+        },
+        {
+          "complaintId": 13,
+          "location": "Ahmedabad, Gujarat, India",
+          "resolution": "Investigate the delay at the sorting center. Contact the customer with an estimated delivery time. Address the underlying cause of the delay."
+        },
+        {
+          "complaintId": 17,
+          "location": "Delhi, Delhi, India",
+          "resolution": "Track the parcel within Delhi. Contact the customer and provide an update. Investigate the delay and take necessary actions."
+        },
+        {
+          "complaintId": 18,
+          "location": "Chennai, Tamil Nadu, India",
+          "resolution": "Investigate delivery delays in the Chennai area. Communicate an updated delivery time to the customer and ensure expedited handling of the parcel."
+        },
+        {
+          "complaintId": 19,
+          "location": "Kochi, Kerala, India",
+          "resolution": "Investigate an issue with a delayed delivery in Kochi. Track the parcel and inform the customer about a new expected delivery date."
+        }
+      ],
+      "addressIssues": [
+        {
+          "complaintId": 3,
+          "location": "Delhi, Delhi, India",
+          "resolution": "Retrieve the misdirected parcel from Noida. Correctly deliver it to the customer's address in East Delhi. Review address verification processes."
+        },
+        {
+          "complaintId": 8,
+          "location": "Delhi, Delhi, India",
+          "resolution": "Investigate the reason for the incorrect address. Ensure the correct address is used for future deliveries. Improve address verification protocols."
+        },
+        {
+          "complaintId": 9,
+          "location": "Nagpur, Maharashtra, India",
+          "resolution": "Retrieve the misdirected parcel. Update the address in the system. Reschedule the delivery to the correct address. Review address handling procedures."
+        },
+        {
+          "complaintId": 10,
+          "location": "Bhopal, Madhya Pradesh, India",
+          "resolution": "Retrieve the misdirected parcel from Indore. Deliver it to the correct address in Bhopal. Investigate the system error and fix it."
+        },
+        {
+          "complaintId": 20,
+          "location": "Hyderabad, Telangana, India",
+          "resolution": "Review the address entered for delivery. Correct the address issue and ensure successful redelivery to the correct location."
+        }
+      ],
+      "missingParcels": [
+        {
+          "complaintId": 4,
+          "location": "Bangalore, Karnataka, India",
+          "resolution": "Initiate a thorough investigation to locate the missing parcel. Contact the customer and keep them updated. If the parcel cannot be located, process a claim."
+        },
+        {
+          "complaintId": 6,
+          "location": "New Delhi, Delhi, India",
+          "resolution": "Investigate the discrepancy between the tracking information and the customer's claim. If the parcel is lost, process a claim and reimburse the customer."
+        },
+        {
+          "complaintId": 12,
+          "location": "Delhi, Delhi, India",
+          "resolution": "Thoroughly investigate the whereabouts of the parcel within the Delhi sorting center. Contact the customer with updates. If the parcel cannot be found, initiate a claim."
+        },
+        {
+          "complaintId": 14,
+          "location": "Kolkata, West Bengal, India",
+          "resolution": "Conduct a comprehensive search for the missing parcel. Contact the customer and provide updates. Initiate a claim if the parcel is not found."
+        },
+        {
+          "complaintId": 15,
+          "location": "Delhi, Delhi, India",
+          "resolution": "Investigate the missing parcel within Delhi. Contact the customer with updates. Initiate a claim if the parcel is not found."
+        },
+        {
+          "complaintId": 16,
+          "location": "Delhi, Delhi, India",
+          "resolution": "Investigate the missing parcel within Delhi. Contact the customer with updates. Initiate a claim if the parcel is not found."
+        },
+        {
+          "complaintId": 21,
+          "location": "Mumbai, Maharashtra, India",
+          "resolution": "Investigate the missing parcel in Mumbai and provide updates to the customer. If the parcel is confirmed missing, initiate a claim."
+        },
+        {
+          "complaintId": 22,
+          "location": "Chandigarh, Punjab, India",
+          "resolution": "Locate the missing parcel in Chandigarh. Provide timely updates to the customer and initiate a claim if it cannot be found."
+        }
+      ],
+      "serviceQuality": [
+        {
+          "complaintId": 7,
+          "location": "Noida, Uttar Pradesh, India",
+          "resolution": "Improve customer service response times. Provide adequate training to customer service representatives. Ensure accurate and updated tracking information is available."
+        },
+        {
+          "complaintId": 23,
+          "location": "Gurgaon, Haryana, India",
+          "resolution": "Enhance the customer support team's ability to address tracking queries promptly. Offer better solutions for delayed or missing parcel issues."
+        }
+      ]
+    },
+    "alerts": [
+      {
+        "priority": "High",
+        "description": "High number of missing parcels reported in Delhi. This indicates a potential systemic issue within the Delhi sorting facility.",
+        "suggestedAction": "Conduct an immediate audit of the Delhi sorting facility's processes and procedures. Implement enhanced tracking mechanisms and improve security measures to prevent further losses.",
+        "affectedRegions": ["Delhi, Delhi, India"]
+      },
+      {
+        "priority": "Medium",
+        "description": "Significant delays and delivery issues reported across multiple regions. This suggests potential operational inefficiencies.",
+        "suggestedAction": "Review and optimize delivery routes and processes. Improve communication with customers regarding delays and provide estimated delivery times.",
+        "affectedRegions": ["Surat, Gujarat, India", "Delhi, Delhi, India", "Ahmedabad, Gujarat, India", "Pune, Maharashtra, India"]
+      },
+      {
+        "priority": "Medium",
+        "description": "Recurring address issues highlight the need for improved address verification and handling procedures.",
+        "suggestedAction": "Implement stricter address verification protocols. Provide training to staff on proper address handling. Improve the accuracy of address data in the system.",
+        "affectedRegions": ["Delhi, Delhi, India", "Nagpur, Maharashtra, India", "Bhopal, Madhya Pradesh, India"]
+      },
+      {
+        "priority": "Low",
+        "description": "Customer service response times need improvement. This affects customer satisfaction.",
+        "suggestedAction": "Improve response times and provide adequate training to customer service representatives.",
+        "affectedRegions": ["Noida, Uttar Pradesh, India"]
+      },
+      {
+        "priority": "Low",
+        "description": "Additional missing parcels identified in Mumbai and Chandigarh regions.",
+        "suggestedAction": "Initiate targeted investigations in Mumbai and Chandigarh. Improve parcel tracking and handling procedures to prevent further incidents.",
+        "affectedRegions": ["Mumbai, Maharashtra, India", "Chandigarh, Punjab, India"]
+      }
+    ]
+  }
+  
