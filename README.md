@@ -52,6 +52,8 @@ This project introduces an AI-powered, cloud-based platform designed to ensure v
 
 ---
 
+![Center image](./Frontend/assets/display%202.png)
+
 ## **Feasibility Analysis**
 
 - **Technologies**: Reliable and proven technologies like React Native/Expo, Node.js, Google Cloud, Firebase.
