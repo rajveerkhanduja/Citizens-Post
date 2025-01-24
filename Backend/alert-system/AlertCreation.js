@@ -13,7 +13,7 @@ const twilioClient = twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 // Function to fetch consignment data and save to JSON file
 const fetchAndStoreConsignmentData = async () => {
   const encodedParams = new URLSearchParams();
-  encodedParams.set('consignment_number', 'CG180864439IN');
+  encodedParams.set('consignment_number', process.env.CONSIGNMENT_NUMBER);
   encodedParams.set('include_pincode_info', 'false');
 
   const options = {
