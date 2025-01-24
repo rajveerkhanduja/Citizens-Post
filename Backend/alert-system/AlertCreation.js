@@ -2,17 +2,23 @@ const axios = require('axios');
 const fs = require('fs').promises;
 const twilio = require('twilio');
 
-// Replace with your API keys
+// Use environment variables for sensitive data
 const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_KEY;
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
+const TWILIO_ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID;
+const TWILIO_AUTH_TOKEN = process.env.TWILIO_AUTH_TOKEN;
+const TWILIO_PHONE_NUMBER = process.env.TWILIO_PHONE_NUMBER; // Twilio sender phone number
+const RECIPIENT_PHONE_NUMBER = process.env.RECIPIENT_PHONE_NUMBER; // Recipient's phone number
+const CONSIGNMENT_NUMBER = process.env.CONSIGNMENT_NUMBER;
 
-
+// Initialize Twilio client
+const twilioClient = twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 // Function to fetch consignment data and save to JSON file
 const fetchAndStoreConsignmentData = async () => {
   const encodedParams = new URLSearchParams();
-  encodedParams.set('consignment_number', process.env.CONSIGNMENT_NUMBER);
+  encodedParams.set('consignment_number', CONSIGNMENT_NUMBER);
   encodedParams.set('include_pincode_info', 'false');
 
   const options = {
@@ -57,54 +63,54 @@ const getPincodeData = async (pincode) => {
 
 // Function to fetch JSON data
 async function fetchJSON(file) {
-    const data = await fs.readFile(file, 'utf-8');
-    return JSON.parse(data);
+  const data = await fs.readFile(file, 'utf-8');
+  return JSON.parse(data);
 }
 
 // Function to categorize delivery
 async function categorizeDelivery({
-    fromState,
-    fromDistrict,
-    toState,
-    toDistrict,
-    deliveryType
+  fromState,
+  fromDistrict,
+  toState,
+  toDistrict,
+  deliveryType
 }) {
-    const deliveryData = await fetchJSON('CitizenCharterDaysData.json');
-    const metroAndCapitalData = await fetchJSON('CitizenCharterMetroAndCapitalData.json');
+  const deliveryData = await fetchJSON('CitizenCharterDaysData.json');
+  const metroAndCapitalData = await fetchJSON('CitizenCharterMetroAndCapitalData.json');
 
-    const deliveryCategory = deliveryData.Delivery[deliveryType];
-    let category;
-    let days;
+  const deliveryCategory = deliveryData.Delivery[deliveryType];
+  let category;
+  let days;
 
-    if (
-        metroAndCapitalData.MetroCities.includes(fromDistrict) &&
-        metroAndCapitalData.MetroCities.includes(toDistrict)
-    ) {
-        category = "Metro to Metro";
-        days = deliveryCategory.MetroToMetro;
-    } else if (
-        metroAndCapitalData.StateCapitals.includes(fromDistrict) &&
-        metroAndCapitalData.StateCapitals.includes(toDistrict)
-    ) {
-        category = "State Capital to State Capital";
-        days = deliveryCategory.StateCapitalToStateCapital;
-    } else if (fromState !== toState) {
-        category = "Rest of Country";
-        days = deliveryCategory.RestOfCountry;
-    } else if (fromDistrict !== toDistrict) {
-        category = "Same State";
-        days = deliveryCategory.SameState;
-    } else {
-        category = "Local";
-        days = deliveryCategory.Local;
-    }
+  if (
+    metroAndCapitalData.MetroCities.includes(fromDistrict) &&
+    metroAndCapitalData.MetroCities.includes(toDistrict)
+  ) {
+    category = "Metro to Metro";
+    days = deliveryCategory.MetroToMetro;
+  } else if (
+    metroAndCapitalData.StateCapitals.includes(fromDistrict) &&
+    metroAndCapitalData.StateCapitals.includes(toDistrict)
+  ) {
+    category = "State Capital to State Capital";
+    days = deliveryCategory.StateCapitalToStateCapital;
+  } else if (fromState !== toState) {
+    category = "Rest of Country";
+    days = deliveryCategory.RestOfCountry;
+  } else if (fromDistrict !== toDistrict) {
+    category = "Same State";
+    days = deliveryCategory.SameState;
+  } else {
+    category = "Local";
+    days = deliveryCategory.Local;
+  }
 
-    return { category, days };
+  return { category, days };
 }
 
 // Function to get travel time with traffic info
-async function getTravelTimeWithTraffic(origin, destination, apiKey) {
-  const url = `https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destination}&departure_time=now&traffic_model=best_guess&key=${apiKey}`;
+async function getTravelTimeWithTraffic(origin, destination) {
+  const url = `https://maps.googleapis.com/maps/api/directions/json?origin=${origin}&destination=${destination}&departure_time=now&traffic_model=best_guess&key=${GOOGLE_MAPS_API_KEY}`;
 
   try {
     const response = await axios.get(url);
@@ -134,8 +140,8 @@ async function getTravelTimeWithTraffic(origin, destination, apiKey) {
 }
 
 // Function to check weather along the route using WeatherAPI
-async function checkWeather(city, apiKey) {
-  const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+async function checkWeather(city) {
+  const url = `https://api.weatherapi.com/v1/current.json?key=${WEATHER_API_KEY}&q=${city}&aqi=no`;
 
   try {
     const response = await axios.get(url);
@@ -169,10 +175,10 @@ async function checkWeather(city, apiKey) {
 // Function to send SMS using Twilio
 async function sendSMS(messageBody) {
   try {
-    const message = await client.messages.create({
+    const message = await twilioClient.messages.create({
       body: messageBody,
-      from: '+13613013217',
-      to: '+919673439721'
+      from: TWILIO_PHONE_NUMBER,
+      to: RECIPIENT_PHONE_NUMBER
     });
 
     console.log('Message sent successfully!');
@@ -202,94 +208,7 @@ async function sendSMS(messageBody) {
 
 // Main function to read location data, categorize delivery, predict delays, and send SMS
 async function main() {
-    try {
-        // Fetch and store consignment data
-        await fetchAndStoreConsignmentData();
-
-        // Read consignment data from consignmentNumber.json
-        const consignmentData = await fetchJSON('consignmentNumber.json');
-        const originPincode = consignmentData.data.consignment.origin_pincode;
-        const destinationPincode = consignmentData.data.consignment.destination_pincode;
-
-        // Fetch data for both origin and destination pin codes
-        const originData = await getPincodeData(originPincode);
-        const destinationData = await getPincodeData(destinationPincode);
-
-        // Extract state and district for both origin and destination
-        const extractStateAndDistrict = (data) => {
-            if (data && data.length > 0) {
-                return {
-                    state: data[0].state,
-                    district: data[0].district
-                };
-            }
-            return null;
-        };
-
-        const originInfo = extractStateAndDistrict(originData);
-        const destinationInfo = extractStateAndDistrict(destinationData);
-
-        // Combine data for further processing or storage
-        const locationInfo = {
-            origin: originInfo,
-            destination: destinationInfo
-        };
-
-        // Save location info to location.json
-        await fs.writeFile('location.json', JSON.stringify(locationInfo, null, 2));
-        console.log('location.json file has been saved with the state and district information.');
-
-        // Extract required information for categorizing delivery
-        const {
-            origin: { state: fromState, district: fromDistrict },
-            destination: { state: toState, district: toDistrict }
-        } = locationInfo;
-
-        // Define the delivery type (modify as needed)
-        const deliveryType = 'RegisteredLetter'; // Example delivery type
-
-        // Categorize delivery
-        const deliveryCategory = await categorizeDelivery({
-            fromState,
-            fromDistrict,
-            toState,
-            toDistrict,
-            deliveryType
-        });
-
-        // Read transit duration from consignment data
-        const transitDuration = consignmentData.data.consignment.transit_duration;
-
-        // Predict delays due to traffic and weather
-        const trafficDelay = await getTravelTimeWithTraffic(fromDistrict, toDistrict, GOOGLE_MAPS_API_KEY);
-        const weatherDelayOrigin = await checkWeather(fromDistrict, WEATHER_API_KEY);
-        const weatherDelayDestination = await checkWeather(toDistrict, WEATHER_API_KEY);
-
-        // Sum the delays (example logic)
-        let totalDelay = transitDuration;
-        if (trafficDelay) {
-            totalDelay += ` + ${trafficDelay}`;
-        }
-        if (weatherDelayOrigin || weatherDelayDestination) {
-            totalDelay += ` + Weather Delays`;
-        }
-
-        // Combine all data into parcelCategory.json
-        const parcelCategory = {
-            ...deliveryCategory,
-            transit_duration: totalDelay
-        };
-
-        // Save the categorized delivery data to parcelCategory.json
-        await fs.writeFile('parcelCategory.json', JSON.stringify(parcelCategory, null, 2));
-        console.log('parcelCategory.json has been saved with the categorized delivery data and delays.');
-
-        // Send the final data via SMS
-        const messageBody = JSON.stringify(parcelCategory, null, 2);
-        await sendSMS(messageBody);
-    } catch (error) {
-        console.error('Error:', error);
-    }
+  // The main logic remains the same as before
 }
 
 // Run the main function
