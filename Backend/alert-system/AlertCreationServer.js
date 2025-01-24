@@ -10,7 +10,7 @@ const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 
 // Initialize Twilio client
-const client = twilio('AC6b91d6dfbdc4d5ce8d2790713773e02e', '7a48a66dbd118969d9d48dd68b3182c2');
+const twilioClient = twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 // Create an Express server
 const app = express();
