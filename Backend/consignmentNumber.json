@@ -1,0 +1,231 @@
+{
+  "success": true,
+  "message": "Consignment Found",
+  "data": {
+    "tracking_status": "Completed",
+    "synced_at": "2024-12-12T01:20:15.000000Z",
+    "tracking_events": [
+      {
+        "id": "01jew77h815gqj9src9h0k4j1h",
+        "tracked_at": "2024-10-17T05:57:37.000000Z",
+        "event": "Item Booked",
+        "event_type": "ItemBooked",
+        "office": "Asarwa Ext South SO",
+        "pincode": "380024",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77h8mnw1jy05hfh8zyaph",
+        "tracked_at": "2024-10-17T09:53:52.000000Z",
+        "event": "Item Bagged",
+        "event_type": "ItemBagged",
+        "office": "Asarwa Ext South SO",
+        "pincode": "380024",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77h9cvxn6xj020sxm5gf5",
+        "tracked_at": "2024-10-17T09:56:11.000000Z",
+        "event": "Item Dispatched",
+        "event_type": "ItemDispatched",
+        "office": "Asarwa Ext South SO",
+        "pincode": "380024",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77ha3hffzgk88zkvemska",
+        "tracked_at": "2024-10-18T04:20:13.000000Z",
+        "event": "Item Received",
+        "event_type": "ItemReceived",
+        "office": "Ahmedabad PH",
+        "pincode": "380001",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hav8k35db8w3gvbx1pj",
+        "tracked_at": "2024-10-18T06:46:07.000000Z",
+        "event": "Item Bagged",
+        "event_type": "ItemBagged",
+        "office": "Ahmedabad PH",
+        "pincode": "380001",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hbgvs8d86rp8j94vms2",
+        "tracked_at": "2024-10-18T08:16:55.000000Z",
+        "event": "Item Dispatched",
+        "event_type": "ItemDispatched",
+        "office": "Ahmedabad PH",
+        "pincode": "380001",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hc3ftyb3dz3q2jzh3rv",
+        "tracked_at": "2024-10-23T20:55:41.000000Z",
+        "event": "Item Dispatched",
+        "event_type": "ItemDispatched",
+        "office": "Mumbai PH",
+        "pincode": "400078",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hd06q4xtpqbz76z69c8",
+        "tracked_at": "2024-10-25T19:55:36.000000Z",
+        "event": "Item Received",
+        "event_type": "ItemReceived",
+        "office": "Bengaluru Transshipment Centre",
+        "pincode": "562149",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77he0jkjvsbk5n48becy4",
+        "tracked_at": "2024-10-26T01:54:19.000000Z",
+        "event": "Item Dispatched",
+        "event_type": "ItemDispatched",
+        "office": "Bengaluru Transshipment Centre",
+        "pincode": "562149",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77heh7hhs87a3hzrwcvre",
+        "tracked_at": "2024-10-26T17:31:15.000000Z",
+        "event": "Item Received",
+        "event_type": "ItemReceived",
+        "office": "Chennai Transhipment Centre",
+        "pincode": "600060",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hfcregefza0n3xtzx6e",
+        "tracked_at": "2024-10-26T19:22:44.000000Z",
+        "event": "Item Dispatched",
+        "event_type": "ItemDispatched",
+        "office": "Chennai Transhipment Centre",
+        "pincode": "600060",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hfy397n890811es83f6",
+        "tracked_at": "2024-10-26T19:56:19.000000Z",
+        "event": "Item Received",
+        "event_type": "ItemReceived",
+        "office": "Chennai PH",
+        "pincode": "600008",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hgnpn3xpzmt21epmjkj",
+        "tracked_at": "2024-10-26T23:27:59.000000Z",
+        "event": "Item Bagged",
+        "event_type": "ItemBagged",
+        "office": "Chennai PH",
+        "pincode": "600008",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hh982g89696qtdy971p",
+        "tracked_at": "2024-10-27T01:52:49.000000Z",
+        "event": "Item Dispatched",
+        "event_type": "ItemDispatched",
+        "office": "Chennai PH",
+        "pincode": "600008",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hhwe81w6nymcaba0jp3",
+        "tracked_at": "2024-10-27T14:26:48.000000Z",
+        "event": "Item Received",
+        "event_type": "ItemReceived",
+        "office": "EGMORE RS TMO 2",
+        "pincode": "600008",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hjfkaz9kg0ycnd5qwty",
+        "tracked_at": "2024-10-27T19:52:25.000000Z",
+        "event": "Item Dispatched",
+        "event_type": "ItemDispatched",
+        "office": "EGMORE RS TMO 2",
+        "pincode": "600008",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hk28zb2w8dp17ap5trw",
+        "tracked_at": "2024-10-28T03:29:50.000000Z",
+        "event": "Item Received",
+        "event_type": "ItemReceived",
+        "office": "Tondiarpet S.O",
+        "pincode": "600081",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hkmhkaqgrkys37rtjf9",
+        "tracked_at": "2024-10-28T03:55:09.000000Z",
+        "event": "Out for Delivery",
+        "event_type": "OutForDelivery",
+        "office": "Tondiarpet S.O",
+        "pincode": "600081",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hm7cbabdtbb2fjb324q",
+        "tracked_at": "2024-10-28T05:05:08.000000Z",
+        "event": "Item Delivered  [To: janani (Addressee) ]",
+        "event_type": "ItemDelivered",
+        "office": "Tondiarpet S.O (Beat Number:4)",
+        "pincode": "600081",
+        "remarks": null,
+        "next_office": null
+      },
+      {
+        "id": "01jew77hn5j8kwqmeytpvn2xz7",
+        "tracked_at": "2024-10-28T11:27:09.000000Z",
+        "event": "Item Delivered(Addressee)",
+        "event_type": "ItemDelivered",
+        "office": "Tondiarpet S.O",
+        "pincode": "600081",
+        "remarks": null,
+        "next_office": null
+      }
+    ],
+    "consignment": {
+      "number": "CG180864439IN",
+      "article_type": "RegisteredPost",
+      "delivery_status": "ItemDelivered",
+      "substatus": "Item Delivered(Addressee)",
+      "booked_at": "Asarwa Ext South SO",
+      "booked_on": "2024-10-17T05:57:37.000000Z",
+      "origin_pincode": "380024",
+      "destination_pincode": "600081",
+      "delivery_location": "Tondiarpet S.O",
+      "delivered_at": "2024-10-28T11:27:09.000000Z",
+      "last_updated_at": "2024-10-28T11:27:09.000000Z",
+      "tariff": "80.24 INR",
+      "synced_at": "2024-12-12T01:20:15.000000Z",
+      "returned_at": null,
+      "request_count": 5,
+      "latest_tracking_request_id": "01jew777qpfqqv6te9eckx8p70",
+      "latest_tracking_event_id": "01jew77hn5j8kwqmeytpvn2xz7",
+      "current_status": "Item Delivered",
+      "transit_duration": "11 Days and 5 Hours"
+    }
+  }
+}

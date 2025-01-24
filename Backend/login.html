@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verify User Credentials</title>
+  
+  <!-- Firebase CDN -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+
+</head>
+<body>
+  <h1>Login</h1>
+
+  <!-- User Input Form -->
+  <form id="loginForm">
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" required>
+    <br><br>
+    <label for="passcode">Passcode:</label>
+    <input type="password" id="passcode" required>
+    <br><br>
+    <button type="submit">Login</button>
+  </form>
+
+  <p id="result"></p> <!-- To display result -->
+
+  <script>
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBlmBxRs-lWm573NVNO3BgGPPGYlDe7-lo",
+      authDomain: "sih-citizen-charter.firebaseapp.com",
+      projectId: "sih-citizen-charter",
+      storageBucket: "sih-citizen-charter.firebasestorage.app",
+      messagingSenderId: "930469006274",
+      appId: "1:930469006274:web:de6fc2c239f3887230e45b",
+      measurementId: "G-V7EM9Y68MY"
+    };
+
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore(app);
+
+    // Function to verify user phone and passcode
+    const verifyUserCredentials = async (inputPhone, inputPasscode) => {
+      const usersCollection = db.collection('users');
+      const querySnapshot = await usersCollection
+        .where("phone", "==", inputPhone)
+        .where("passcode", "==", inputPasscode)
+        .get();
+
+      if (!querySnapshot.empty) {
+        return true;  // Credentials are valid
+      } else {
+        return false; // Credentials are invalid
+      }
+    };
+
+    // Handle form submission
+    document.getElementById("loginForm").addEventListener("submit", async (e) => {
+      e.preventDefault();  // Prevent form from refreshing the page
+
+      // Get user input from form fields
+      const inputPhone = document.getElementById("phone").value;
+      const inputPasscode = document.getElementById("passcode").value;
+
+      // Call the function to verify the input
+      const isValid = await verifyUserCredentials(inputPhone, inputPasscode);
+
+      // Display result in the HTML
+      const resultElement = document.getElementById("result");
+      if (isValid) {
+        resultElement.textContent = "Access granted!";
+        resultElement.style.color = "green";
+      } else {
+        resultElement.textContent = "Invalid credentials!";
+        resultElement.style.color = "red";
+      }
+    });
+  </script>
+</body>
+</html>

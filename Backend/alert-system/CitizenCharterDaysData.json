@@ -1,0 +1,68 @@
+{
+  "Delivery": {
+    "FirstClassMail": {
+      "Letters": {
+        "Local": 2,
+        "MetroToMetro": 4,
+        "SameState": 6,
+        "StateCapitalToStateCapital": 5,
+        "RestOfCountry": 6
+      },
+      "Postcards": {
+        "Local": 2,
+        "MetroToMetro": 4,
+        "SameState": 6,
+        "StateCapitalToStateCapital": 5,
+        "RestOfCountry": 6
+      },
+      "LetterCards": {
+        "Local": 2,
+        "MetroToMetro": 4,
+        "SameState": 6,
+        "StateCapitalToStateCapital": 5,
+        "RestOfCountry": 6
+      }
+    },
+    "RegisteredLetter": {
+      "Local": 2,
+      "MetroToMetro": 4,
+      "SameState": 6,
+      "StateCapitalToStateCapital": 5,
+      "RestOfCountry": 6
+    },
+    "RegisteredParcel": {
+      "Local": 2,
+      "MetroToMetro": 4,
+      "SameState": 6,
+      "StateCapitalToStateCapital": 5,
+      "RestOfCountry": 6
+    },
+    "SpeedPost": {
+      "Articles": {
+        "Local": 2,
+        "MetroToMetro": 3,
+        "StateCapitalToStateCapital": 4,
+        "SameState": 4,
+        "RestOfCountry": 5
+      }
+    },
+    "BusinessParcelAndSecondClassMail": {
+      "ParcelAndMailTypes": {
+        "Local": 3,
+        "MetroToMetro": 5,
+        "StateCapitalToStateCapital": 6,
+        "SameState": 6,
+        "RestOfCountry": 7
+      },
+      "ComplaintHandling": {
+      "AcknowledgementOfComplaint": {
+        "InstantaneousWebRegistration": 0
+      },
+      "SettlementOfComplaints": {
+        "TimeFromLodging": 60
+      },
+      "SettlementOfComplaintsWithInvestigation": {
+        "TimeFromLodging": 90
+      }
+    
+      }}}}

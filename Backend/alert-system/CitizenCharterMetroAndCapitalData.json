@@ -1,0 +1,45 @@
+{
+    "MetroCities": [
+      "Mumbai", 
+      "Delhi", 
+      "Kolkata", 
+      "Chennai", 
+      "Bengaluru", 
+      "Hyderabad", 
+      "Ahmedabad", 
+      "Pune", 
+      "Jaipur", 
+      "Surat"
+    ],
+    "StateCapitals": [
+      "Amaravati", 
+      "Itanagar", 
+      "Dispur", 
+      "Patna", 
+      "Raipur", 
+      "Panaji", 
+      "Gandhinagar", 
+      "Chandigarh", 
+      "Shimla", 
+      "Ranchi",
+      "Bengaluru", 
+      "Thiruvananthapuram", 
+      "Bhopal", 
+      "Mumbai", 
+      "Imphal", 
+      "Shillong", 
+      "Aizawl", 
+      "Kohima", 
+      "Bhubaneswar",
+      "Chandigarh", 
+      "Jaipur", 
+      "Gangtok", 
+      "Chennai", 
+      "Hyderabad", 
+      "Agartala", 
+      "Lucknow", 
+      "Dehradun", 
+      "Kolkata"
+    ]
+  }
+  

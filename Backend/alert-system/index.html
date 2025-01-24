@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consignment Tracking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f7f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .mobile-container {
+      width: 375px;
+      height: 667px;
+      background-color: #fff;
+      border-radius: 40px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      overflow: hidden;
+      border: 5px solid black; /* Black borders added */
+    }
+    .mobile-screen {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      margin-bottom: 8px;
+      display: block;
+      color: #555;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e7f5ff;
+      border-radius: 8px;
+      border: 1px solid #007bff;
+      font-size: 14px;
+      color: #333;
+      word-wrap: break-word;
+    }
+    .error {
+      color: red;
+      font-weight: bold;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mobile-container">
+    <div class="mobile-screen">
+      <h1>Track Consignment</h1>
+
+      <form id="trackingForm">
+        <label for="consignmentNumber">Consignment Number:</label>
+        <input type="text" id="consignmentNumber" name="consignmentNumber" required placeholder="Enter consignment number">
+
+        <button type="submit">Track Consignment</button>
+      </form>
+
+      <div id="result" class="result" style="display: none;"></div>
+      <div id="errorMessage" class="error" style="display: none;"></div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("trackingForm").addEventListener("submit", async function (event) {
+      event.preventDefault();
+
+      const consignmentNumber = document.getElementById("consignmentNumber").value.trim();
+      
+      if (!consignmentNumber) {
+        alert("Please enter a consignment number.");
+        return;
+      }
+
+      // Hide previous result and error messages
+      document.getElementById("result").style.display = "none";
+      document.getElementById("errorMessage").style.display = "none";
+
+      try {
+        // Make the API request to the /track endpoint
+        const response = await fetch("http://localhost:3000/track", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ consignmentNumber }),
+        });
+
+        if (response.ok) {
+          const result = await response.json();
+          document.getElementById("result").innerHTML = `
+            <h2>Tracking Information</h2>
+            <pre>${JSON.stringify(result, null, 2)}</pre>
+          `;
+          document.getElementById("result").style.display = "block";
+        } else {
+          const error = await response.text();
+          document.getElementById("errorMessage").innerText = `Error: ${error}`;
+          document.getElementById("errorMessage").style.display = "block";
+        }
+      } catch (error) {
+        document.getElementById("errorMessage").innerText = `Error: ${error.message}`;
+        document.getElementById("errorMessage").style.display = "block";
+      }
+    });
+  </script>
+
+</body>
+</html>

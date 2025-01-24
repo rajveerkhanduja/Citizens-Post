@@ -1,0 +1,194 @@
+[
+    {
+        "S.No.": "1",
+        "Circle Name": "Andhra Pradesh Circle",
+        "Head Post Office": "57",
+        "Sub Post Office": "1510",
+        "Branch Post Office": "9101",
+        "Letter Box": "27648"
+    },
+    {
+        "S.No.": "2",
+        "Circle Name": "Assam Circle",
+        "Head Post Office": "19",
+        "Sub Post Office": "602",
+        "Branch Post Office": "3441",
+        "Letter Box": "5800"
+    },
+    {
+        "S.No.": "3",
+        "Circle Name": "Bihar Circle",
+        "Head Post Office": "33",
+        "Sub Post Office": "1045",
+        "Branch Post Office": "8264",
+        "Letter Box": "16271"
+    },
+    {
+        "S.No.": "4",
+        "Circle Name": "Chhattisgarh Circle",
+        "Head Post Office": "10",
+        "Sub Post Office": "343",
+        "Branch Post Office": "4115",
+        "Letter Box": "14855"
+    },
+    {
+        "S.No.": "5",
+        "Circle Name": "Delhi Circle",
+        "Head Post Office": "12",
+        "Sub Post Office": "367",
+        "Branch Post Office": "130",
+        "Letter Box": "730"
+    },
+    {
+        "S.No.": "6",
+        "Circle Name": "Gujarat Circle",
+        "Head Post Office": "32",
+        "Sub Post Office": "1184",
+        "Branch Post Office": "7671",
+        "Letter Box": "22987"
+    },
+    {
+        "S.No.": "7",
+        "Circle Name": "Haryana Circle",
+        "Head Post Office": "16",
+        "Sub Post Office": "489",
+        "Branch Post Office": "2194",
+        "Letter Box": "5455"
+    },
+    {
+        "S.No.": "8",
+        "Circle Name": "Himachal Pradesh Circle",
+        "Head Post Office": "18",
+        "Sub Post Office": "452",
+        "Branch Post Office": "2337",
+        "Letter Box": "6475"
+    },
+    {
+        "S.No.": "9",
+        "Circle Name": "Jammu and Kashmir Circle",
+        "Head Post Office": "9",
+        "Sub Post Office": "254",
+        "Branch Post Office": "1472",
+        "Letter Box": "3130"
+    },
+    {
+        "S.No.": "10",
+        "Circle Name": "Jharkhand Circle",
+        "Head Post Office": "13",
+        "Sub Post Office": "455",
+        "Branch Post Office": "4112",
+        "Letter Box": "10810"
+    },
+    {
+        "S.No.": "11",
+        "Circle Name": "Karnataka Circle",
+        "Head Post Office": "58",
+        "Sub Post Office": "1641",
+        "Branch Post Office": "7959",
+        "Letter Box": "25249"
+    },
+    {
+        "S.No.": "12",
+        "Circle Name": "Kerala Circle",
+        "Head Post Office": "52",
+        "Sub Post Office": "1457",
+        "Branch Post Office": "3554",
+        "Letter Box": "8811"
+    },
+    {
+        "S.No.": "13",
+        "Circle Name": "Madhya Pradesh Circle",
+        "Head Post Office": "43",
+        "Sub Post Office": "972",
+        "Branch Post Office": "9256",
+        "Letter Box": "29620"
+    },
+    {
+        "S.No.": "14",
+        "Circle Name": "Maharashtra Circle",
+        "Head Post Office": "61",
+        "Sub Post Office": "2157",
+        "Branch Post Office": "11814",
+        "Letter Box": "37640"
+    },
+    {
+        "S.No.": "15",
+        "Circle Name": "North Eastern Circle",
+        "Head Post Office": "9",
+        "Sub Post Office": "335",
+        "Branch Post Office": "4134",
+        "Letter Box": "3631"
+    },
+    {
+        "S.No.": "16",
+        "Circle Name": "Odisha Circle",
+        "Head Post Office": "35",
+        "Sub Post Office": "1177",
+        "Branch Post Office": "7695",
+        "Letter Box": "13940"
+    },
+    {
+        "S.No.": "17",
+        "Circle Name": "Punjab Circle",
+        "Head Post Office": "22",
+        "Sub Post Office": "712",
+        "Branch Post Office": "3108",
+        "Letter Box": "11396"
+    },
+    {
+        "S.No.": "18",
+        "Circle Name": "Rajasthan Circle",
+        "Head Post Office": "47",
+        "Sub Post Office": "1270",
+        "Branch Post Office": "9730",
+        "Letter Box": "26176"
+    },
+    {
+        "S.No.": "19",
+        "Circle Name": "Tamilnadu Circle",
+        "Head Post Office": "94",
+        "Sub Post Office": "2499",
+        "Branch Post Office": "9273",
+        "Letter Box": "27600"
+    },
+    {
+        "S.No.": "20",
+        "Circle Name": "Uttar Pradesh Circle",
+        "Head Post Office": "73",
+        "Sub Post Office": "2460",
+        "Branch Post Office": "15420",
+        "Letter Box": "45642"
+    },
+    {
+        "S.No.": "21",
+        "Circle Name": "Uttarakhand Circle",
+        "Head Post Office": "13",
+        "Sub Post Office": "382",
+        "Branch Post Office": "2341",
+        "Letter Box": "6783"
+    },
+    {
+        "S.No.": "22",
+        "Circle Name": "West Bengal Circle",
+        "Head Post Office": "48",
+        "Sub Post Office": "1719",
+        "Branch Post Office": "7328",
+        "Letter Box": "16456"
+    },
+    {
+        "S.No.": "23",
+        "Circle Name": "Telangana Circle",
+        "Head Post Office": "36",
+        "Sub Post Office": "789",
+        "Branch Post Office": "5442",
+        "Letter Box": "12732"
+    },
+    {
+        "S.No.": "Total",
+        "Circle Name": "810",
+        "Head Post Office": "24271",
+        "Sub Post Office": "139891",
+        "Branch Post Office": "379837",
+        "Letter Box": null
+    }
+]

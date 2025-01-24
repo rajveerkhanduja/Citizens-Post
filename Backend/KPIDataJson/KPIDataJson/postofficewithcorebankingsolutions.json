@@ -1,0 +1,692 @@
+[
+  {
+    "S.No.": 1,
+    "Name of the Circle": "Andhra Pradesh",
+    "Name of the aspirational district": "Visakhapatnam",
+    "No. of Departmental POs in CBS network": 113
+  },
+  {
+    "S.No.": 2,
+    "Name of the Circle": "Andhra Pradesh",
+    "Name of the aspirational district": "Vizainagram",
+    "No. of Departmental POs in CBS network": 64
+  },
+  {
+    "S.No.": 3,
+    "Name of the Circle": "Andhra Pradesh",
+    "Name of the aspirational district": "cuddapah",
+    "No. of Departmental POs in CBS network": 104
+  },
+  {
+    "S.No.": 4,
+    "Name of the Circle": "Assam",
+    "Name of the aspirational district": "Darrang",
+    "No. of Departmental POs in CBS network": 12
+  },
+  {
+    "S.No.": 5,
+    "Name of the Circle": "Assam",
+    "Name of the aspirational district": "Dhubri",
+    "No. of Departmental POs in CBS network": 11
+  },
+  {
+    "S.No.": 6,
+    "Name of the Circle": "Assam",
+    "Name of the aspirational district": "Barpeta",
+    "No. of Departmental POs in CBS network": 18
+  },
+  {
+    "S.No.": 7,
+    "Name of the Circle": "Assam",
+    "Name of the aspirational district": "Goalpara",
+    "No. of Departmental POs in CBS network": 11
+  },
+  {
+    "S.No.": 8,
+    "Name of the Circle": "Assam",
+    "Name of the aspirational district": "Hailakandi",
+    "No. of Departmental POs in CBS network": 9
+  },
+  {
+    "S.No.": 9,
+    "Name of the Circle": "Assam",
+    "Name of the aspirational district": "Udalgiri",
+    "No. of Departmental POs in CBS network": 10
+  },
+  {
+    "S.No.": 10,
+    "Name of the Circle": "Assam",
+    "Name of the aspirational district": "Baksa",
+    "No. of Departmental POs in CBS network": 6
+  },
+  {
+    "S.No.": 11,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Purnia",
+    "No. of Departmental POs in CBS network": 10
+  },
+  {
+    "S.No.": 12,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Araria",
+    "No. of Departmental POs in CBS network": 10
+  },
+  {
+    "S.No.": 13,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Nawada",
+    "No. of Departmental POs in CBS network": 12
+  },
+  {
+    "S.No.": 14,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Sheikhpura",
+    "No. of Departmental POs in CBS network": 2
+  },
+  {
+    "S.No.": 15,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Begusarai",
+    "No. of Departmental POs in CBS network": 19
+  },
+  {
+    "S.No.": 16,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Khagaria",
+    "No. of Departmental POs in CBS network": 14
+  },
+  {
+    "S.No.": 17,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Katihar",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 18,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Sitamarhi",
+    "No. of Departmental POs in CBS network": 19
+  },
+  {
+    "S.No.": 19,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Aurangabad",
+    "No. of Departmental POs in CBS network": 13
+  },
+  {
+    "S.No.": 20,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Banka",
+    "No. of Departmental POs in CBS network": 6
+  },
+  {
+    "S.No.": 21,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Jamui",
+    "No. of Departmental POs in CBS network": 7
+  },
+  {
+    "S.No.": 22,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Muzaffarpur",
+    "No. of Departmental POs in CBS network": 20
+  },
+  {
+    "S.No.": 23,
+    "Name of the Circle": "Bihar Circle",
+    "Name of the aspirational district": "Gaya",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 24,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Korba",
+    "No. of Departmental POs in CBS network": 19
+  },
+  {
+    "S.No.": 25,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Mahasamund",
+    "No. of Departmental POs in CBS network": 7
+  },
+  {
+    "S.No.": 26,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Rajnandgaon",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 27,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Bastar",
+    "No. of Departmental POs in CBS network": 12
+  },
+  {
+    "S.No.": 28,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Bijapur",
+    "No. of Departmental POs in CBS network": 3
+  },
+  {
+    "S.No.": 29,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Dantewade",
+    "No. of Departmental POs in CBS network": 5
+  },
+  {
+    "S.No.": 30,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Kanker",
+    "No. of Departmental POs in CBS network": 13
+  },
+  {
+    "S.No.": 31,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Kondagaon",
+    "No. of Departmental POs in CBS network": 6
+  },
+  {
+    "S.No.": 32,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Narayanpur",
+    "No. of Departmental POs in CBS network": 1
+  },
+  {
+    "S.No.": 33,
+    "Name of the Circle": "Chhattisgarh",
+    "Name of the aspirational district": "Sukma",
+    "No. of Departmental POs in CBS network": 3
+  },
+  {
+    "S.No.": 34,
+    "Name of the Circle": "Gujarat",
+    "Name of the aspirational district": "Narmada",
+    "No. of Departmental POs in CBS network": 10
+  },
+  {
+    "S.No.": 35,
+    "Name of the Circle": "Gujarat",
+    "Name of the aspirational district": "Dahod",
+    "No. of Departmental POs in CBS network": 14
+  },
+  {
+    "S.No.": 36,
+    "Name of the Circle": "Haryana",
+    "Name of the aspirational district": "Mewat",
+    "No. of Departmental POs in CBS network": 6
+  },
+  {
+    "S.No.": 37,
+    "Name of the Circle": "Himachal Pradesh",
+    "Name of the aspirational district": "Chamba",
+    "No. of Departmental POs in CBS network": 21
+  },
+  {
+    "S.No.": 38,
+    "Name of the Circle": "Jammu & Kashmir",
+    "Name of the aspirational district": "Kupwara",
+    "No. of Departmental POs in CBS network": 3
+  },
+  {
+    "S.No.": 39,
+    "Name of the Circle": "Jammu & Kashmir",
+    "Name of the aspirational district": "Baramula",
+    "No. of Departmental POs in CBS network": 9
+  },
+  {
+    "S.No.": 40,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Sahebganj",
+    "No. of Departmental POs in CBS network": 6
+  },
+  {
+    "S.No.": 41,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Pakaur",
+    "No. of Departmental POs in CBS network": 2
+  },
+  {
+    "S.No.": 42,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Godda",
+    "No. of Departmental POs in CBS network": 6
+  },
+  {
+    "S.No.": 43,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Latehar",
+    "No. of Departmental POs in CBS network": 4
+  },
+  {
+    "S.No.": 44,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Lohardaga",
+    "No. of Departmental POs in CBS network": 5
+  },
+  {
+    "S.No.": 45,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Palamu",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 46,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Purbisinghbhum",
+    "No. of Departmental POs in CBS network": 38
+  },
+  {
+    "S.No.": 47,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Ramgarh",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 48,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Ranchi",
+    "No. of Departmental POs in CBS network": 58
+  },
+  {
+    "S.No.": 49,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Simdega",
+    "No. of Departmental POs in CBS network": 3
+  },
+  {
+    "S.No.": 50,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "West Singbhum",
+    "No. of Departmental POs in CBS network": 19
+  },
+  {
+    "S.No.": 51,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Bokaro",
+    "No. of Departmental POs in CBS network": 15
+  },
+  {
+    "S.No.": 52,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Chatra",
+    "No. of Departmental POs in CBS network": 5
+  },
+  {
+    "S.No.": 53,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Dumka",
+    "No. of Departmental POs in CBS network": 8
+  },
+  {
+    "S.No.": 54,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Garhwa",
+    "No. of Departmental POs in CBS network": 3
+  },
+  {
+    "S.No.": 55,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Girdih",
+    "No. of Departmental POs in CBS network": 36
+  },
+  {
+    "S.No.": 56,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Gumla",
+    "No. of Departmental POs in CBS network": 11
+  },
+  {
+    "S.No.": 57,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Hazaribagh",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 58,
+    "Name of the Circle": "Jharkhand",
+    "Name of the aspirational district": "Khunti",
+    "No. of Departmental POs in CBS network": 4
+  },
+  {
+    "S.No.": 59,
+    "Name of the Circle": "Karnataka",
+    "Name of the aspirational district": "Yadgir",
+    "No. of Departmental POs in CBS network": 24
+  },
+  {
+    "S.No.": 60,
+    "Name of the Circle": "Karnataka",
+    "Name of the aspirational district": "Raichur",
+    "No. of Departmental POs in CBS network": 37
+  },
+  {
+    "S.No.": 61,
+    "Name of the Circle": "Kerala",
+    "Name of the aspirational district": "Wayanad",
+    "No. of Departmental POs in CBS network": 20
+  },
+  {
+    "S.No.": 62,
+    "Name of the Circle": "Madhya Pradesh",
+    "Name of the aspirational district": "Guna",
+    "No. of Departmental POs in CBS network": 17
+  },
+  {
+    "S.No.": 63,
+    "Name of the Circle": "Madhya Pradesh",
+    "Name of the aspirational district": "Vidisha",
+    "No. of Departmental POs in CBS network": 19
+  },
+  {
+    "S.No.": 64,
+    "Name of the Circle": "Madhya Pradesh",
+    "Name of the aspirational district": "Khandwa",
+    "No. of Departmental POs in CBS network": 19
+  },
+  {
+    "S.No.": 65,
+    "Name of the Circle": "Madhya Pradesh",
+    "Name of the aspirational district": "Barwani",
+    "No. of Departmental POs in CBS network": 8
+  },
+  {
+    "S.No.": 66,
+    "Name of the Circle": "Madhya Pradesh",
+    "Name of the aspirational district": "Singrauli",
+    "No. of Departmental POs in CBS network": 10
+  },
+  {
+    "S.No.": 67,
+    "Name of the Circle": "Madhya Pradesh",
+    "Name of the aspirational district": "Rajgarh",
+    "No. of Departmental POs in CBS network": 15
+  },
+  {
+    "S.No.": 68,
+    "Name of the Circle": "Madhya Pradesh",
+    "Name of the aspirational district": "Chhatarpur",
+    "No. of Departmental POs in CBS network": 22
+  },
+  {
+    "S.No.": 69,
+    "Name of the Circle": "Madhya Pradesh",
+    "Name of the aspirational district": "Damoh",
+    "No. of Departmental POs in CBS network": 19
+  },
+  {
+    "S.No.": 70,
+    "Name of the Circle": "Maharashtra",
+    "Name of the aspirational district": "Nandurbar",
+    "No. of Departmental POs in CBS network": 21
+  },
+  {
+    "S.No.": 71,
+    "Name of the Circle": "Maharashtra",
+    "Name of the aspirational district": "Washim",
+    "No. of Departmental POs in CBS network": 14
+  },
+  {
+    "S.No.": 72,
+    "Name of the Circle": "Maharashtra",
+    "Name of the aspirational district": "Osamanabad",
+    "No. of Departmental POs in CBS network": 28
+  },
+  {
+    "S.No.": 73,
+    "Name of the Circle": "Maharashtra",
+    "Name of the aspirational district": "Gadcharoli",
+    "No. of Departmental POs in CBS network": 18
+  },
+  {
+    "S.No.": 74,
+    "Name of the Circle": "North East",
+    "Name of the aspirational district": "Namsai (Arunachal)",
+    "No. of Departmental POs in CBS network": 2
+  },
+  {
+    "S.No.": 75,
+    "Name of the Circle": "North East",
+    "Name of the aspirational district": "Dhalai (Tripura)",
+    "No. of Departmental POs in CBS network": 9
+  },
+  {
+    "S.No.": 76,
+    "Name of the Circle": "North East",
+    "Name of the aspirational district": "Chandel (Manipur)",
+    "No. of Departmental POs in CBS network": 1
+  },
+  {
+    "S.No.": 77,
+    "Name of the Circle": "North East",
+    "Name of the aspirational district": "Ribhoi (Meghalaya)",
+    "No. of Departmental POs in CBS network": 4
+  },
+  {
+    "S.No.": 78,
+    "Name of the Circle": "North East",
+    "Name of the aspirational district": "Mamit (Mizoram)",
+    "No. of Departmental POs in CBS network": 3
+  },
+  {
+    "S.No.": 79,
+    "Name of the Circle": "North East",
+    "Name of the aspirational district": "Kiphire (Nagaland)",
+    "No. of Departmental POs in CBS network": 0
+  },
+  {
+    "S.No.": 80,
+    "Name of the Circle": "Odisha",
+    "Name of the aspirational district": "Koraput",
+    "No. of Departmental POs in CBS network": 37
+  },
+  {
+    "S.No.": 81,
+    "Name of the Circle": "Odisha",
+    "Name of the aspirational district": "Malkangiri",
+    "No. of Departmental POs in CBS network": 4
+  },
+  {
+    "S.No.": 82,
+    "Name of the Circle": "Odisha",
+    "Name of the aspirational district": "Rayagada",
+    "No. of Departmental POs in CBS network": 24
+  },
+  {
+    "S.No.": 83,
+    "Name of the Circle": "Odisha",
+    "Name of the aspirational district": "Gajapati",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 84,
+    "Name of the Circle": "Odisha",
+    "Name of the aspirational district": "Kalahandi",
+    "No. of Departmental POs in CBS network": 32
+  },
+  {
+    "S.No.": 85,
+    "Name of the Circle": "Odisha",
+    "Name of the aspirational district": "Balangiri",
+    "No. of Departmental POs in CBS network": 52
+  },
+  {
+    "S.No.": 86,
+    "Name of the Circle": "Odisha",
+    "Name of the aspirational district": "Dhenkanal",
+    "No. of Departmental POs in CBS network": 51
+  },
+  {
+    "S.No.": 87,
+    "Name of the Circle": "Odisha",
+    "Name of the aspirational district": "Kandhamal",
+    "No. of Departmental POs in CBS network": 34
+  },
+  {
+    "S.No.": 88,
+    "Name of the Circle": "Punjab",
+    "Name of the aspirational district": "Firozpur",
+    "No. of Departmental POs in CBS network": 24
+  },
+  {
+    "S.No.": 89,
+    "Name of the Circle": "Punjab",
+    "Name of the aspirational district": "Moga",
+    "No. of Departmental POs in CBS network": 17
+  },
+  {
+    "S.No.": 90,
+    "Name of the Circle": "Rajasthan",
+    "Name of the aspirational district": "Baran",
+    "No. of Departmental POs in CBS network": 14
+  },
+  {
+    "S.No.": 91,
+    "Name of the Circle": "Rajasthan",
+    "Name of the aspirational district": "Jaisalmer",
+    "No. of Departmental POs in CBS network": 19
+  },
+  {
+    "S.No.": 92,
+    "Name of the Circle": "Rajasthan",
+    "Name of the aspirational district": "Dholpur",
+    "No. of Departmental POs in CBS network": 20
+  },
+  {
+    "S.No.": 93,
+    "Name of the Circle": "Rajasthan",
+    "Name of the aspirational district": "Karauli",
+    "No. of Departmental POs in CBS network": 18
+  },
+  {
+    "S.No.": 94,
+    "Name of the Circle": "Rajasthan",
+    "Name of the aspirational district": "Sirohi",
+    "No. of Departmental POs in CBS network": 24
+  },
+  {
+    "S.No.": 95,
+    "Name of the Circle": "Tamilnadu",
+    "Name of the aspirational district": "Ramanathapuram",
+    "No. of Departmental POs in CBS network": 54
+  },
+  {
+    "S.No.": 96,
+    "Name of the Circle": "Tamilnadu",
+    "Name of the aspirational district": "Virudhunagar",
+    "No. of Departmental POs in CBS network": 77
+  },
+  {
+    "S.No.": 97,
+    "Name of the Circle": "Telengana",
+    "Name of the aspirational district": "Asifabad",
+    "No. of Departmental POs in CBS network": 8
+  },
+  {
+    "S.No.": 98,
+    "Name of the Circle": "Telengana",
+    "Name of the aspirational district": "Khammam",
+    "No. of Departmental POs in CBS network": 38
+  },
+  {
+    "S.No.": 99,
+    "Name of the Circle": "Telengana",
+    "Name of the aspirational district": "Bhoopalpalli",
+    "No. of Departmental POs in CBS network": 7
+  },
+  {
+    "S.No.": 100,
+    "Name of the Circle": "Uttar Pradesh",
+    "Name of the aspirational district": "Sonbhadra",
+    "No. of Departmental POs in CBS network": 22
+  },
+  {
+    "S.No.": 101,
+    "Name of the Circle": "Uttar Pradesh",
+    "Name of the aspirational district": "Balrampur",
+    "No. of Departmental POs in CBS network": 18
+  },
+  {
+    "S.No.": 102,
+    "Name of the Circle": "Uttar Pradesh",
+    "Name of the aspirational district": "Bahraich",
+    "No. of Departmental POs in CBS network": 24
+  },
+  {
+    "S.No.": 103,
+    "Name of the Circle": "Uttar Pradesh",
+    "Name of the aspirational district": "Shrawasti",
+    "No. of Departmental POs in CBS network": 6
+  },
+  {
+    "S.No.": 104,
+    "Name of the Circle": "Uttar Pradesh",
+    "Name of the aspirational district": "Siddharthnagar",
+    "No. of Departmental POs in CBS network": 14
+  },
+  {
+    "S.No.": 105,
+    "Name of the Circle": "Uttar Pradesh",
+    "Name of the aspirational district": "Chitrakoot",
+    "No. of Departmental POs in CBS network": 7
+  },
+  {
+    "S.No.": 106,
+    "Name of the Circle": "Uttar Pradesh",
+    "Name of the aspirational district": "Fatehpur",
+    "No. of Departmental POs in CBS network": 22
+  },
+  {
+    "S.No.": 107,
+    "Name of the Circle": "Uttar Pradesh",
+    "Name of the aspirational district": "Chandauli",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 108,
+    "Name of the Circle": "Uttarakhand",
+    "Name of the aspirational district": "Haridwar",
+    "No. of Departmental POs in CBS network": 37
+  },
+  {
+    "S.No.": 109,
+    "Name of the Circle": "Uttarakhand",
+    "Name of the aspirational district": "Udham Singh Naagar",
+    "No. of Departmental POs in CBS network": 20
+  },
+  {
+    "S.No.": 110,
+    "Name of the Circle": "West Bengal",
+    "Name of the aspirational district": "Murshidabad",
+    "No. of Departmental POs in CBS network": 66
+  },
+  {
+    "S.No.": 111,
+    "Name of the Circle": "West Bengal",
+    "Name of the aspirational district": "Maldah",
+    "No. of Departmental POs in CBS network": 29
+  },
+  {
+    "S.No.": 112,
+    "Name of the Circle": "West Bengal",
+    "Name of the aspirational district": "Birbhum",
+    "No. of Departmental POs in CBS network": 40
+  },
+  {
+    "S.No.": 113,
+    "Name of the Circle": "West Bengal",
+    "Name of the aspirational district": "Nadia",
+    "No. of Departmental POs in CBS network": 105
+  },
+  {
+    "S.No.": 114,
+    "Name of the Circle": "West Bengal",
+    "Name of the aspirational district": "Dakshin Dinajpur",
+    "No. of Departmental POs in CBS network": 16
+  },
+  {
+    "S.No.": 115,
+    "Name of the Circle": "West Bengal",
+    "Name of the aspirational district": "West Sikkim",
+    "No. of Departmental POs in CBS network": 2
+  }
+]

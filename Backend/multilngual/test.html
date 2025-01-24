@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation API Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input, select, button {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9e9e9;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Translation API Test</h1>
+        <textarea id="inputText" rows="4" placeholder="Enter text to translate"></textarea>
+        <select id="targetLang">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="it">Italian</option>
+            <option value="ja">Japanese</option>
+            <option value="ko">Korean</option>
+            <option value="zh">Chinese</option>
+            <option value="ar">Arabic</option>
+        </select>
+        <button onclick="translateText()">Translate</button>
+        
+        <div id="result">
+            <h3>Translation Result:</h3>
+            <p id="translatedText">Translation will appear here</p>
+            <p id="detectedLang">Detected Language: None</p>
+        </div>
+    </div>
+
+    <script>
+        async function translateText() {
+            // Get input values
+            const text = document.getElementById('inputText').value;
+            const targetLang = document.getElementById('targetLang').value;
+            const resultDiv = document.getElementById('result');
+            const translatedTextEl = document.getElementById('translatedText');
+            const detectedLangEl = document.getElementById('detectedLang');
+
+            // Validate input
+            if (!text) {
+                alert('Please enter text to translate');
+                return;
+            }
+
+            // API endpoint (replace with your actual Vercel deployment URL)
+            const apiUrl = 'https://translation-drab.vercel.app/api/translation';
+
+            try {
+                // Send POST request to translation API
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ text, targetLang })
+                });
+
+                // Check if response is OK
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                // Parse the JSON response
+                const data = await response.json();
+
+                // Update result display
+                translatedTextEl.textContent = data.translatedText || 'Translation failed';
+                detectedLangEl.textContent = `Detected Language: ${data.detectedLanguage}`;
+
+            } catch (error) {
+                console.error('Translation error:', error);
+                translatedTextEl.textContent = `Error: ${error.message}`;
+                detectedLangEl.textContent = 'Detected Language: N/A';
+            }
+        }
+    </script>
+</body>
+</html>

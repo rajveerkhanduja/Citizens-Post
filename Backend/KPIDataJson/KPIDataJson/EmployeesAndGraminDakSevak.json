@@ -1,0 +1,78 @@
+{
+    "Gazetted": {
+      "Group_A": {
+        "INDIAN_POSTAL_SERVICE_GROUP_A": {
+          "Secretary_Posts": 1,
+          "Director_General": 1,
+          "Member_Postal_Services_Board": 6,
+          "Sr_DDG_Chief_PMG": 25,
+          "Senior_Administrative_Grade": 70,
+          "Junior_Administrative_Grade": 50,
+          "Senior_Time_Scale": 87,
+          "Junior_Time_Scale": 62,
+          "Training_Reserves_Probationers": 0
+        },
+        "POSTAL_SERVICE_GROUP_B": {
+          "Assistant_Superintendent": 1604,
+          "Total": 709
+        },
+        "INDIAN_P&T_ACCOUNTS_FINANCE_SERVICE": {
+          "Senior_Administrative_Grade": 13,
+          "Junior_Administrative_Grade": 9,
+          "Senior_Time_Scale": 21,
+          "Junior_Time_Scale": 6,
+          "Senior_Accounts_Officer_Accounts_Officer": 225,
+          "Asstt_Accounts_Officer": 488
+        },
+        "CENTRAL_SECRETARIAT_SERVICE": {
+          "Total": 119,
+          "Group_A": 66,
+          "Group_B": 53
+        },
+        "CIVIL_WING": {
+          "Chief_Engineer": 27,
+          "Others": 169
+        },
+        "OTHER_GENERAL_CENTRAL_SERVICE": {
+          "Total": 141,
+          "Group_A": 14,
+          "Group_B": 127
+        },
+        "TOTAL": {
+          "Group_A": 458,
+          "Group_B": 3375,
+          "Total": 3833
+        }
+      }
+    },
+    "Group_B_NON_GAZETTED": {
+      "Total": 5728
+    },
+    "NON_GAZETTED": {
+      "Group_C": {
+        "Excluding_MTS": {
+          "Directorate": 109,
+          "Post_Offices_including_Circle_office_Accounts_Stamp_Depot_Canteen_Staff": 127245,
+          "Railway_Mail_Service": 15232,
+          "Mail_Motor_Service": 1146,
+          "Others_RLO_Disp_Store_Trg_Civil_Printing_Press": 610
+        },
+        "Group_C_MTS": {
+          "Directorate": 105,
+          "Post_Offices_including_Circle_office_Accounts_Stamp_Depot_Canteen_Staff": 15828,
+          "Railway_Mail_Service": 6940,
+          "Mail_Motor_Service": 211,
+          "Others_RLO_Disp_Store_Trg_Civil_Printing_Press": 425
+        },
+        "TOTAL": {
+          "Excluding_MTS": 144342,
+          "Group_C_MTS": 23509,
+          "Total": 167851
+        }
+      }
+    },
+    "TOTAL_DEPARTMENTAL": 177412,
+    "Gramin_Dak_Sewak": 239702,
+    "GRAND_TOTAL": 417114
+  }
+  
