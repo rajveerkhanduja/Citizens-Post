@@ -1,6 +1,6 @@
-const accountSid = process.env.ACCOUNTSID;
+
 const authToken = process.env.TWILIO_AUTHTOKEN;
-const client = require('twilio')(accountSid, authToken);
+const client = require('twilio')(accountSid, authToken)
 
 async function sendSMS() {
   try {

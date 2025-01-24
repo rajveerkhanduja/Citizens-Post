@@ -9,8 +9,7 @@ const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_MAPS_KEY;
 const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 
-// Initialize Twilio client
-const twilioClient = twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
+/
 
 // Create an Express server
 const app = express();
