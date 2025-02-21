@@ -24,7 +24,7 @@ This project introduces an AI-powered, cloud-based platform designed to ensure v
 - **Automated Alerts**: Immediate notifications of delays or service issues with dynamic process optimization.
 - **User-friendly Dashboard**: Web and mobile interfaces allow easy access to real-time performance metrics for both staff and citizens.
 
-![Center Image](./Frontend/assets/drisplay 2.png)
+
 
 ---
 
